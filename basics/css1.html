@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Layout - Grid</title>
+    <style>
+        div{
+            box-shadow: 0 0 3px #333;
+            border-radius: 5px;
+            padding: 1rem;
+            
+        }
+        main{
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 1rem;
+        }
+        h1{
+            text-align: center;
+            margin: 0;
+        }
+        #box1{
+            display: grid;
+        }
+        h2{
+            text-align: center;
+            margin: 0;
+        }
+        #box2{
+            display: grid;
+            place-items: center;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="box1">
+            <h1>Technincal</h1>
+            <button>Known more</button>
+        </div>
+        <div>
+            <p>Iste facilis dolores autem laudantium odio. Aperiam unde nemo ab et deleniti rem itaque natus perspiciatis accusantium sequi. Necessitatibus voluptas laborum eligendi, magni voluptate nesciunt tempora corrupti a quis commodi.</p>
+        </div>
+        <div id="box2">
+            <h1>html</h1>
+            <button> Known more</button>
+        </div>
+        <div>
+            <p>Magni labore ad unde, molestiae sint, repellat voluptas animi iure cumque voluptate natus quidem fuga dolorum quod tenetur expedita hic? Iusto a asperiores adipisci, sequi unde facere odio modi illum!</p>
+        </div>
+        <div>
+            <p>Impedit ipsum, corporis unde consectetur a architecto alias obcaecati labore magni porro deleniti minima. Incidunt soluta sunt, fuga pariatur culpa ducimus perferendis exercitationem esse numquam voluptas eaque, accusamus veritatis repellat!</p>
+        </div>
+        <div>
+            <p>Cum officiis omnis, eum tempore cupiditate minus, perspiciatis inventore voluptatibus consequatur id blanditiis laudantium. Sunt deleniti, necessitatibus debitis blanditiis consectetur repudiandae. Nisi possimus illum provident itaque repellat deleniti saepe quibusdam.</p>
+        </div>
+    </main>
+    
+</body>
+</html>
